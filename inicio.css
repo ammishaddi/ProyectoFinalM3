@@ -1,0 +1,82 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(231, 223, 215) ;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(220, 78, 85);
+    width: 75vw;
+    margin-top: 1vw;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2vw;
+}
+
+.textos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    
+}
+
+#h2{
+    margin-bottom: -0.5vw;
+}
+
+
+
+.imagen{
+    display: flex;
+    margin-left: 9vw;
+}
+
+#logo{
+    width: 25vw;
+    
+}
+
+.comment-container{
+    width: 75vw;
+}
+
+
+#comentarios-texto{
+    color: grey;
+}
+
+
+#comentario{
+    display: flex;
+    align-items: center;
+    width: 70vw;
+    margin-left: 2.5vw;
+    height: 15vh;
+    margin-bottom: 1vw;
+    font-size: 16px;
+}
+
+
+
+#publicar{
+    color: rgb(250, 250, 250);
+    background-color: rgb(220, 78, 85);
+    padding: 1%;
+    border-radius: 15px;
+    font-size: bold;
+    font-size: 1vw;
+    margin-left: 18vw;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 2vw;
+    width: 16vw;
+    display: flex;
+    justify-content: center;
+    margin-left: 29vw;
+    
+}

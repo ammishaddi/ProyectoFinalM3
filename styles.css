@@ -1,0 +1,143 @@
+.contenedor{
+    display: flex;
+    flex-direction: row;
+}
+
+.izquierda{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: auto;
+    background: linear-gradient(to bottom, rgb(220, 78, 85) 70%, rgb(231, 223, 215) 30%);
+    color:rgb(231, 223, 215) ;
+}
+
+        #helados{
+            font-size: 5.8vw;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding: 0;
+            margin-top: 1vw;
+            margin-bottom: -1.5vw;
+            
+        }
+        #helado{
+            width: 36vw;
+            margin-bottom: 8vh;
+        }
+
+
+.derecha {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: auto;
+    background: radial-gradient(#dfa9c8, rgb(231, 223, 215));
+
+}
+
+#texto-inicio{
+    background-color:  rgb(220, 78, 85);
+    color: rgb(231, 223, 215);
+    padding: 2%;
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    margin-top: -3vw;
+    font-size: 3vh;
+}
+
+
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(231, 223, 215) ;
+    padding: 2%;
+    width: 25vw;
+    height: 22vh;
+    align-items: center;
+    margin-top: -2vh;
+    margin-bottom: 1.5vw;
+   
+}
+
+#user-texto{
+    font-size: 15px;
+    padding: 1%;
+    margin-left: -15vw;
+    color: gray;
+}
+
+#username{
+    font-size: 16px;
+    margin-bottom: 1.5vw;
+    width: 18vw;
+    color:rgb(220, 78, 85);
+    font-weight: bold;
+
+}
+
+#contra-texto{
+    font-size: 15px;
+    padding: 1%;
+    margin-left: -14vw;
+    color: gray;
+}
+
+
+#password{
+    font-size: 16px;
+    width: 18vw;
+    color:rgb(220, 78, 85);
+    font-weight: bold;
+}
+
+#boton{
+    color: rgb(250, 250, 250);
+    background-color: rgb(220, 78, 85);
+    padding: 1.2%;
+    border-radius: 15px;
+    font-size: bold;
+    font-size: 1vw;
+    margin-left: 18vw;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 3vw;
+}
+
+#boton:hover{
+    background-color: rgb(210, 33, 42);
+    transform: scale(1.05);
+}
+
+
+#nota{
+    padding: 1%;
+    background-color: rgb(220, 78, 85);
+    color: white;
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+}
+
+#contenido-nota{
+    padding: 1%;
+    background-color: rgb(231, 223, 215);
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    margin-top: -1vw;
+}
+
+#error{
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+    margin-top: -1vw;
+    margin-bottom: 2vw;
+}
