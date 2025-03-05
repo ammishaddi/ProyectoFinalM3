@@ -80,3 +80,33 @@
     margin-left: 29vw;
     
 }
+
+.comentario{
+    background-color: white;
+    padding: 10px;
+    margin-top: 1vw;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: left;
+    color: black;
+
+    font-size: 22px;
+   
+    
+}
+
+.comentario p{
+    font-size: 8px;
+    line-height: 0.5px;
+    color: #4a4e69;
+    margin-bottom: -10px;
+}
+
+.user-image{
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    
+    
+ 
+}

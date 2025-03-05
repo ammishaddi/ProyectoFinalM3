@@ -19,3 +19,4 @@ function logIn() {
         error.textContent = "Usuario o contraseña incorrecta"
     }
 }
+
