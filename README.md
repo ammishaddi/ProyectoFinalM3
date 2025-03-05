@@ -5,6 +5,9 @@
 Inicio de sesión, agregue una nota para que puedan ingresar como invitados usando los datos 
 ![Texto alternativo](https://i.imgur.com/240Y2b5.png)
 
+Caja de comentarios
+![Texto alternativo](https://i.imgur.com/yqyRtoy.png)
+
 
 ### Códigos HTML 
 index
